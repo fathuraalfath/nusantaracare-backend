@@ -1,0 +1,17 @@
+.git/
+.gitignore
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+venv/
+.venv/
+env/
+.vscode/
+.fastapicloud/
+data/chroma_db/
+demo_chat.html
