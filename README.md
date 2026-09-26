@@ -275,7 +275,7 @@ Backend ini telah dirancang untuk memenuhi standar deployment cloud (FastAPI Clo
 3. **Verifikasi Publik:**
    Setelah deployment aktif, uji endpoint menggunakan cURL:
    ```bash
-   curl -X POST "https://<app>.fastapicloud.dev/chat" \
+   curl -X POST "https://nusantaracare-backend-f25acd7b.fastapicloud.dev/chat" \
         -H "Content-Type: application/json" \
         -d '{"message": "Kapan saya boleh menggunakan email untuk melaporkan gangguan?"}'
    ```
